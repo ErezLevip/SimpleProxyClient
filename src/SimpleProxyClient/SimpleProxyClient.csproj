@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Attributes\ControllerBinding.cs" />
+    <Compile Remove="Attributes\MethodBinding.cs" />
+    <Compile Remove="Attributes\PropertyBinding.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.3.1" />
+    <PackageReference Include="Castle.Core.AsyncInterceptor" Version="1.6.0" />
+    <PackageReference Include="LinFu.DynamicProxy" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Moq" Version="4.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleProxyClient.Attributes\SimpleProxyClient.Attributes.csproj" />
+  </ItemGroup>
+
+ 
+
+</Project>

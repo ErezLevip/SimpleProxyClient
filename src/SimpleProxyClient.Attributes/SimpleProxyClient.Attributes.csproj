@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>SimpleProxyClient.Attributes</AssemblyName>
+    <RootNamespace>SimpleProxyClient.Attributes</RootNamespace>
+  </PropertyGroup>
+
+</Project>
