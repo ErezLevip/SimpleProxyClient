@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DogService\DogService.csproj" />
-    <ProjectReference Include="..\SimpleProxyClient\SimpleProxyClient.csproj" />
-    <ProjectReference Include="..\SimpleProxyClient.Attributes\SimpleProxyClient.Attributes.csproj" />
+    <ProjectReference Include="..\..\SimpleProxyClient.Attributes\SimpleProxyClient.Attributes.csproj" />
+    <ProjectReference Include="..\..\SimpleProxyClient\SimpleProxyClient.csproj" />
+    <ProjectReference Include="..\TestService\DogService.csproj" />
   </ItemGroup>
 
 </Project>

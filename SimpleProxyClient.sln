@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProxyClient.Attribute
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogService", "src\Tests\TestService\DogService.csproj", "{DAE6E60D-AC3C-4894-BE32-1298FBEE69A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EEECF480-06F4-42E4-80BD-7B7C27BCA9F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99AF390A-8EEA-4033-B3B3-CFE9854100D7} = {EEECF480-06F4-42E4-80BD-7B7C27BCA9F0}
+		{DAE6E60D-AC3C-4894-BE32-1298FBEE69A2} = {EEECF480-06F4-42E4-80BD-7B7C27BCA9F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {136C93D4-B2EE-4C92-9D31-8597C432CE25}
