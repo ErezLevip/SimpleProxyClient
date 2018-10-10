@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProxyClient", "src\SimpleProxyClient\SimpleProxyClient.csproj", "{75103179-ED0D-460D-829E-B438555A374D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tester", "src\Tester\Tester.csproj", "{99AF390A-8EEA-4033-B3B3-CFE9854100D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tester", "src\Tests\InterceptorTests\Tester.csproj", "{99AF390A-8EEA-4033-B3B3-CFE9854100D7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProxyClient.Attributes", "src\SimpleProxyClient.Attributes\SimpleProxyClient.Attributes.csproj", "{0363097C-C17C-4EAE-9AA2-916C6B899755}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogService", "src\DogService\DogService.csproj", "{DAE6E60D-AC3C-4894-BE32-1298FBEE69A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogService", "src\Tests\TestService\DogService.csproj", "{DAE6E60D-AC3C-4894-BE32-1298FBEE69A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

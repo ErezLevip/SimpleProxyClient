@@ -90,7 +90,6 @@ namespace SimpleProxyClient
             _gatewayInterceptor.GlobalInterceptors = interceptors;
 
             var mock = new Mock<T>();
-
             var pg = new ProxyGenerator();
             return pg.CreateInterfaceProxyWithTarget<T>(GetTarget(clientType), _gatewayInterceptor);
         }
